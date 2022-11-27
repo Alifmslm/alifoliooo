@@ -49,7 +49,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px;
+    padding: 42px;
 }
 
 .navbar-sosmed {
@@ -121,13 +121,11 @@ header {
 }
 
 .header-navigation {
-    position: sticky;
-    top: 0;
     background: transparent;
     cursor: pointer;
     transition: var(--transition);
     border-radius: 3rem;
-    margin-top: 25%;
+    margin-top: 16%;
     padding: 30px 50px;
     border: 1px solid var(--colour-text-primary);
 }
@@ -144,8 +142,6 @@ header {
     transition: var(--transition);
     cursor: pointer;
 }
-
-
 
 .nav-about, .nav-project, .nav-experience, .nav-contact {
     transition: var(--transition);
@@ -200,15 +196,58 @@ header {
     border-radius: 100px;
 }
 
-.project-page__text {
-    text-align: center;
+
+
+
+
+/* ===== MEDIA QUERY AREAAAA ===== */
+
+@media screen and (max-width:1440px) {
+    .header-navigation {
+        margin-top: 22%;
+    }
 }
 
-.project-page__main {
-    display: flex;
-    justify-content: center;
+@media screen and (max-width:1024px) {
+
+    .header-text__name {
+        font-size: 4rem;
+    }
+
+    .header-text__desc {
+        font-size: 0.8rem;
+    }
+
+    .fa-laptop-code {
+        font-size: 6.5rem;
+    }
+
+    .name-about{
+        font-size: 28px;
+    }
+
+    .about-page__content-image {
+        width: 45%;
+    }
+
 }
 
-.project-page__card {
-    margin: 0 2rem;
+@media screen and (max-width:768px) {
+    
+    .header-navigation {
+        margin-top: 30%;
+    }
+
+    .name-about {
+        font-size: 24px;
+    }
+
+    .about-page__content-text p {
+        font-size: 16px;
+    }
+
+    .about-page__content-image {
+        width: 40%;
+    }
+
 }
