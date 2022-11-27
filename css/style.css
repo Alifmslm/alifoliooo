@@ -208,7 +208,46 @@ header {
     font-size: 18px;
 }
 
+.project-page__main {
+    display: flex;
+    justify-content: center;
+}
 
+.project-page__card {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1rem;
+    padding: 1.5rem;
+    border: 1px solid var(--colour-text-primary);
+    border-radius: 1rem;
+}
+
+.project-page__indicator {
+    display: flex;
+}
+
+.project-page__type{
+    font-size: 12px;
+    padding: 2px 0.8rem;
+    background-color: var(--colour-text-primary);
+    color: #fff;
+    margin-bottom: 0.5rem;
+    border-radius: 2rem;
+}
+
+.project-page__desc {
+    margin: 1.5rem 0;
+}
+
+.project-page__link {
+    display: flex;
+    align-items: center;
+}
+
+.project-page__link-text {
+    margin-right: 0.5rem;
+    font-weight: bold;
+} 
 
 /* ===== MEDIA QUERY AREAAAA ===== */
 
