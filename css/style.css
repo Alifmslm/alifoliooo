@@ -127,7 +127,7 @@ header {
     cursor: pointer;
     transition: var(--transition);
     border-radius: 3rem;
-    margin-top: 20rem;
+    margin-top: 25%;
     padding: 30px 50px;
     border: 1px solid var(--colour-text-primary);
 }
@@ -144,6 +144,7 @@ header {
     transition: var(--transition);
     cursor: pointer;
 }
+
 
 
 .nav-about, .nav-project, .nav-experience, .nav-contact {
