@@ -196,7 +196,17 @@ header {
     border-radius: 100px;
 }
 
+.project-page__text {
+    text-align: center;
+}
 
+.project-page__text h1 {
+    font-size: 38px;
+}
+
+.project-page__text p {
+    font-size: 18px;
+}
 
 
 
