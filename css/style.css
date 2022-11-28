@@ -221,6 +221,14 @@ header {
     padding: 1.5rem;
     border: 1px solid var(--colour-text-primary);
     border-radius: 1rem;
+    transition: var(--transition);
+}
+
+.project-page__card:hover {
+    transition: var(--transition);
+    box-shadow: 10px 10px 165px 0px rgba(186,186,186,0.31);
+    -webkit-box-shadow: 10px 10px 165px 0px rgba(186,186,186,0.31);
+    -moz-box-shadow: 10px 10px 165px 0px rgba(186,186,186,0.31);
 }
 
 .project-page__indicator {
