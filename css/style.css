@@ -206,6 +206,7 @@ header {
 }
 
 .project-page__text p {
+    margin-bottom: 2rem;
     font-size: 18px;
 }
 
@@ -217,7 +218,7 @@ header {
 .project-page__card {
     display: flex;
     flex-direction: column;
-    margin: 2rem 1rem;
+    margin: 1rem;
     padding: 1.5rem;
     border: 1px solid var(--colour-text-primary);
     border-radius: 1rem;
@@ -329,11 +330,14 @@ footer {
 
 @media screen and (max-width:1440px) {
     .header-navigation {
-        margin-top: 22%;
+        margin-top: 16%;
     }
 }
 
 @media screen and (max-width:1024px) {
+    .header-navigation {
+        margin-top: 18%;
+    }
 
     .header-text__name {
         font-size: 4rem;
@@ -355,12 +359,17 @@ footer {
         width: 45%;
     }
 
+    .project-page__main {
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr)
+    }
+
 }
 
 @media screen and (max-width:768px) {
-    
-    .header-navigation {
-        margin-top: 30%;
+
+    .project-page__main {
+        display: block;
     }
 
     .name-about {
