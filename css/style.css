@@ -100,6 +100,11 @@ header {
     align-items: center;
 }
 
+.toogle {
+    display: none;
+    cursor: pointer;
+}
+
 .fa-laptop-code {
     /* cara mengubah size icon (iconscot) */
     /* untuk icon dari iconscout, jika mau set szie gunakan font size */
@@ -173,7 +178,7 @@ header {
 .about-page__content {
    display: flex;
    align-items: center;
-   /* justify-content: center; */
+   justify-content: center;
    margin: 3rem 0; 
 }
 
@@ -270,7 +275,7 @@ header {
     display: flex;
     gap: 18%;
     justify-content: center;
-    margin: 10rem;
+    margin: 2rem 0;
 }
 
 .contact-page__right-card {
@@ -334,7 +339,7 @@ footer {
     }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:920px) {
     .header-navigation {
         margin-top: 18%;
     }
@@ -364,6 +369,14 @@ footer {
         grid-template-columns: repeat(2, 1fr)
     }
 
+    .contact-page__right-card p{
+        font-size: 16px;
+    }
+
+    .contact-page__left-header {
+        font-size: 24px;
+    }
+
 }
 
 @media screen and (max-width:768px) {
@@ -382,6 +395,90 @@ footer {
 
     .about-page__content-image {
         width: 40%;
+    }
+
+}
+
+@media screen and (max-width:720px) {
+    header {
+        margin-top: 15rem;
+    }
+
+    .header-container {
+        display: block;
+    }
+
+    .contact-page {
+        display: block;
+        text-align: center;
+        margin: 5rem 0;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    .navbar-sosmed {
+        display: none;
+    }
+
+    .navbar-btn__resume {
+        display: none;
+    }
+
+    .header-navigation {
+        display: none;
+    }
+
+    .fa-laptop-code {
+        font-size: 48px;
+    }
+
+    .header-container {
+        display: block;
+    }
+
+    .header-text__name {
+        font-size: 48px;
+    }
+
+    .header-text__desc {
+        font-size: 9px;
+    }
+
+    .about-page {
+        margin: 200px 0;
+    }
+
+    .name-about {
+        font-size: 18px;
+    }
+
+    .about-page__content {
+        display: block;
+        text-align: center;
+    }
+
+    .about-page__content-text {
+        margin: 0;
+    }
+
+    .about-page__content-text p {
+        font-size: 12px;
+    }
+
+    .about-page__content-text a {
+        font-size: 12px;
+        padding: 0.8rem 5rem;
+    }
+
+    .contact-page__right-card {
+        justify-content: center;
+    }
+
+    .toogle {
+        display: block;
+        width: 10%;
     }
 
 }
