@@ -258,6 +258,7 @@ header {
 .project-page__link {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .project-page__card-image {
