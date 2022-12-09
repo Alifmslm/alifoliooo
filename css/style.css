@@ -133,7 +133,7 @@ header {
     transition: var(--transition);
     border-radius: 3rem;
     padding: 30px 50px;
-    margin-top: 15%;
+    margin-top: 13%;
     border: 1px solid var(--colour-text-primary);
 }
 
@@ -351,8 +351,9 @@ footer {
     }
 
     .project-page__desc {
-        font-size: 13px;
+        font-size: 12px;
     }
+
 }
 
 @media screen and (max-width:920px) {
@@ -380,9 +381,8 @@ footer {
         width: 45%;
     }
 
-    .project-page__main {
-        display: grid; 
-        grid-template-columns: repeat(2, 1fr)
+    .project-page__main, .project-page__bottom, .project-page__top {
+        display: block;
     }
 
     .contact-page__right-card p{
@@ -393,13 +393,13 @@ footer {
         font-size: 24px;
     }
 
+    .project-page__type {
+        font-size: 10px;
+    }
+
 }
 
 @media screen and (max-width:768px) {
-
-    .project-page__main {
-        display: block;
-    }
 
     .name-about {
         font-size: 24px;
