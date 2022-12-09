@@ -132,8 +132,8 @@ header {
     cursor: pointer;
     transition: var(--transition);
     border-radius: 3rem;
-    margin-top: 12%;
     padding: 30px 50px;
+    margin-top: 15%;
     border: 1px solid var(--colour-text-primary);
 }
 
@@ -162,7 +162,7 @@ header {
 
 .about-page {
     border-radius: 20px;
-    margin: 15rem 0;
+    margin: 13rem 0;
     padding: 2rem;
     transition: var(--transition);
     border: #323255 solid 1px;
@@ -277,7 +277,7 @@ header {
     display: flex;
     gap: 18%;
     justify-content: center;
-    margin: 2rem 0;
+    margin: 5rem 0;
 }
 
 .contact-page__right-card {
@@ -334,12 +334,6 @@ footer {
 
 
 /* ===== MEDIA QUERY AREAAAA ===== */
-
-@media screen and (max-width:1440px) {
-    .header-navigation {
-        margin-top: 16%;
-    }
-}
 
 @media screen and (max-width:920px) {
     .header-navigation {
