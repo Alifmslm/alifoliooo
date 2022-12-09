@@ -217,8 +217,18 @@ header {
 }
 
 .project-page__main {
+    display: block;
+    justify-content: center;
+}
+
+.project-page__top {
     display: flex;
     justify-content: center;
+}
+
+.project-page__bottom {
+    display: flex;
+    /* width: 70%; */
 }
 
 .project-page__card {
@@ -277,7 +287,7 @@ header {
     display: flex;
     gap: 18%;
     justify-content: center;
-    margin: 5rem 0;
+    margin: 8rem 0;
 }
 
 .contact-page__right-card {
@@ -334,6 +344,16 @@ footer {
 
 
 /* ===== MEDIA QUERY AREAAAA ===== */
+
+@media screen and (max-width:1024px) {
+    .project-page__name {
+        font-size: 20px;
+    }
+
+    .project-page__desc {
+        font-size: 13px;
+    }
+}
 
 @media screen and (max-width:920px) {
     .header-navigation {
