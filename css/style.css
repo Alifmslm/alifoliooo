@@ -77,6 +77,7 @@ i {
 }
 
 .navbar-btn__resume {
+    font-size: 14px;
     margin-right: 32px;
     padding: 18px 32px;
     background-color: transparent;
@@ -257,7 +258,7 @@ header {
     padding: 2px 0.8rem;
     background-color: var(--colour-text-primary);
     color: #fff;
-    margin-bottom: 0.5rem;
+    margin: 0.5rem 0;
     border-radius: 2rem;
 }
 
@@ -303,7 +304,12 @@ header {
     font-size: large;
 }
 
-.contact-page__right-card, a, p {
+.contact-page__right-card a {
+    margin-left: 1rem;
+    font-size: large;
+}
+
+.contact-page__right-card p {
     margin-left: 1rem;
     font-size: large;
 }
@@ -430,10 +436,6 @@ footer {
         margin: 5rem 0;
     }
 
-}
-
-@media screen and (max-width:600px) {
-
     .navbar-sosmed {
         display: none;
     }
@@ -445,6 +447,20 @@ footer {
     .header-navigation {
         display: none;
     }
+
+    .toogle {
+        display: block;
+        width: 6%;
+        transition: var(--transition);
+    }
+
+    .contact-page__right-card {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width:600px) {
 
     .fa-laptop-code {
         font-size: 48px;
@@ -486,15 +502,6 @@ footer {
     .about-page__content-text a {
         font-size: 10px;
         padding: 0.8rem 3.5rem;
-    }
-
-    .contact-page__right-card {
-        justify-content: center;
-    }
-
-    .toogle {
-        display: block;
-        width: 8%;  
     }
 
     .project-page__desc {
