@@ -303,7 +303,7 @@ header {
     font-size: large;
 }
 
-.contact-page__right-card p {
+.contact-page__right-card, a, p {
     margin-left: 1rem;
     font-size: large;
 }
