@@ -262,6 +262,16 @@ header {
     border-radius: 2rem;
 }
 
+.project-page__icon {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.icon-type {
+    font-size: 18px;
+}
+
 .project-page__desc {
     margin: 1.5rem 0;
 }
@@ -269,6 +279,7 @@ header {
 .project-page__link {
     display: flex;
     align-items: center;
+    text-align: center;
     cursor: pointer;
 }
 
